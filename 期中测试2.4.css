@@ -1,0 +1,916 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px auto;
+	padding:0px;
+}
+.dahezi{
+	width: 1700px;
+	height: 3195px;
+	margin:  0px auto;
+}
+/*nav*/
+.nav{
+	width: 1700px;
+	height: 45px;
+	z-index: 2;
+	margin: 0px auto;
+	position: relative;
+	top: 0px;
+	position: fixed;
+	
+	
+}
+.nav ol{
+	list-style:none;
+	margin-left:511px;
+	padding: 0px;
+}
+.nav  li{
+	float:left;
+	margin-left: 53px;
+	color:#7d7d7f;
+}
+.gongneng{
+	/*width: 294px;*/
+	width: 385px;
+	height: 34px;
+	/*background:url( "期中测试/images/屏幕截图_23-4-2024_15448_www.dpm.org_03.png");*/
+	position: absolute;
+	right: 36px;
+	top:7px;
+}
+.gongneng ul {
+	/*background-color: red;*/
+	width: 385px;
+	height: 34px;
+	padding: 0px;
+	margin: auto 0px;
+}
+.gongneng li{
+	width:40px;
+	height: 22px;
+	background-color: chocolate;
+	list-style: none;
+	padding: 5px 0px;
+	margin:0 18px ;
+	background: url( "img/期中测试/images/images/images/images/ico_tools_msg2.png") no-repeat;
+	background-position:  center;
+	border-right: 1px solid #7d7d7f;
+}
+.gongneng li:nth-child(2){
+	background: url( "img/期中测试/images/images/images/images/ico_user2.2png.png") no-repeat;
+	background-position:  center;
+}
+.gongneng li:nth-child(3){
+	background: url() no-repeat;
+	text-align: center;
+}
+.gongneng li:nth-child(4){
+	background: url( "img/期中测试/images/images/images/images/ico_search22.png") no-repeat;
+	background-position:  center;
+}
+.gongneng li:nth-child(5){
+	background: url( "img/期中测试/images/images/images/images/ico_menu222.png") no-repeat;
+	background-position:  center;
+	border: none;
+}
+.logo{
+	width: 108px;
+	height: 32px;
+	background: url(  "img/期中测试/s611e293c9d212.png");
+	position: absolute;
+	left:36px;
+	top:7px;
+	margin: 7px auto auto 36px;
+}
+/*banner*/
+.banner{
+	width:1250px;
+	height: 472px;
+	/*text-align: center;*/
+	background:url( "img/期中测试/images/s656540bac243f.jpg") no-repeat;
+	/*position:relative;*/
+	margin: 70px auto 0;
+	
+}
+ul.huihuang{
+	
+	width:94px;
+	height: 24px;
+	
+	/*position:absolute;
+	bottom:40px;
+	left:760px;*/
+	padding:20px 0 0px;
+	margin: 0 auto;
+}
+.huihuang li{
+	width: 27px; 
+	height: 24px;
+	background:url( "img/期中测试/dian2.png");
+	float: left;
+	margin:0 10px;
+	list-style: none;
+}
+li.huangse {
+	width: 27px; 
+	height: 24px;
+	background:url( "img/期中测试/dian3.png");
+	float: left;
+	margin-left: 10px;
+	
+}
+/*瓦片区1*/
+.wapianqu1{
+	width:1263px;
+	height:807px;
+	/*background-color: aqua;*/
+	margin: 50px auto 0;
+	/*position: relative;*/
+}
+.sigexuanxiang{
+	width:1263px;
+	height: 25px;
+	/*background-color: bisque;*/
+	margin-top: 40px;
+	
+}
+.sigexuxiangspan{
+	margin: 0 auto;
+	/*background-color:dimgrey;*/
+	text-align: center
+}
+span.xuanxiang1{
+
+	height: 25px;
+	/*background-color: blue;*/
+	padding-left: 35px;
+	margin: 0 17px;
+	font-size: 20px;
+	/*background-color: green;*/
+	position: relative;
+}
+ span.xuanxiangtu{
+	width:27px;
+	height: 25px;
+	/*background-color: red;*/
+	background:url( "img/期中测试/images/list_dragon4.png") left -7px no-repeat ;
+	 position: absolute;
+	 left:-1px;
+}
+ span.xuanxiangtuyi {
+	width:27px;
+	height: 25px;
+	/*background-color: red;*/
+	background:url( "img/期中测试/images/list_dragon4.png") bottom -2px left 1px  no-repeat ;
+	 position: absolute;
+	 left:-1px;
+}
+
+.liudahezi{
+	width:1271px;
+	height:708px;
+	/*background-color: blue;*/
+	margin-top: 30px;
+}
+
+
+.liu{
+	width:412px;
+	height:349px;
+	/*background-color: blanchedalmond;*/
+	margin: 0 10px 10px 0;
+	float: left;
+	border: 1px solid #999;
+	
+}
+.liu3{
+	width:412px;
+	height: 349px;
+	/*background-color: blanchedalmond;*/
+	margin: 0 0 10px 0;
+	float: left;
+	border: 1px solid #999;
+}
+.liu6{
+	width:412px;
+	height: 349px;
+	/*background-color: blanchedalmond;*/
+	margin: 0 0 10px 0;
+	float: left;
+	border: 1px solid #999;
+}
+.liutuxiang{
+	width:413px;
+	height: 268px;
+	background-color: chartreuse;
+	
+}
+
+.liu p{
+	/*background-color: blue;*/
+	padding: 0px;
+	margin-top: 20px;
+	font-size: 14px;
+     color:#999;
+}
+.liu3 p{
+	/*background-color: blue;*/
+	padding: 0px;
+	margin-top: 20px;
+	font-size: 14px;
+     color:#999;
+}
+.liu6 p{
+	/*background-color: blue;*/
+	padding: 0px;
+	margin-top: 20px;
+	font-size: 14px;
+     color:#999;
+}
+.liu span{
+	/*background-color: aqua;*/
+	color:#000;
+}
+.liu3 span{
+	/*background-color: aqua;*/
+	color:#000;
+}
+.liu6 span{
+	/*background-color: aqua;*/
+	color:#000;
+}
+ p.p1 {
+	margin-top: 0px;
+	 color: #707070;
+}
+
+ .gengduoxuanxiang{
+	 width:108px;
+	 height:36px;
+	/*background-color:blanchedalmond;*/
+	 background: url( "img/期中测试/images/back_h - 副本787878999.png");
+	 margin:37px auto 0px;
+	 line-height: 36px;
+	 text-align: center;
+	/* float: left;*/
+}
+
+
+
+/*瓦片区2*/
+.wapianqu2{
+	width:1336px;
+	height: 786px;
+	/*background-color: aqua;*/
+	margin: 70px auto 0;
+	padding-top: 80px;
+}
+.wapianqu2title{
+	width:1250px;
+	height:65px;
+	/*background-color: red;*/
+}
+.zuoyouzhong{
+	width:1336px;
+	height: 654px;
+}
+.zuo {
+	width:545px;
+	height:65px;
+	background: url("img/期中测试/images/images/temporary-title (1).png") no-repeat;
+	background-position: center; 
+		/*background-color: blanchedalmond;*/
+	float:left; 
+}
+.zhong{
+	width:130px;
+	height:65px;
+	float:left;
+	margin: 0 15px ;
+	
+}
+.yuo {
+	width:545px;
+	height:65px;
+	background: url( "img/期中测试/images/images/temporary-title.png") no-repeat;
+	background-position: center; 
+		/*background-color: blanchedalmond;*/
+	float: left;
+}
+
+.zuojian{
+	width:37px;
+	height: 674px;
+	background-color: aqua;
+	float: left;
+	background: url("img/期中测试/images/prev1.png") no-repeat;
+	background-position: center;
+}
+.yuojian{
+	width:37px;
+	height: 674px;
+	background-color: aqua;
+	float: left;
+	background: url( "img/期中测试/images/next1.png") no-repeat;
+	background-position: center;
+}
+.xiaokaqu{
+	width:1162px;
+	/*width:1158px;*/
+	height:654px;
+	/*background-color: aquamarine;*/
+	margin: 20px 50px 0 ;
+	float: left;
+}
+
+.xiaoka{
+	width:222px;
+	height:314px;
+	/*background-color: antiquewhite;*/
+	margin-bottom: 13px;
+	margin-right:13px;
+	float: left;
+	position: relative;
+	
+}
+.xiaoka5{
+	width:222px;
+	height:314px;
+	/*background-color: antiquewhite;*/
+	margin-bottom: 13px;
+	/*margin-right:13px;*/
+	float: left;
+}
+.xiaoka10{
+	width:222px;
+	height:314px;
+	/*background-color: antiquewhite;*/
+	margin-bottom: 13px;
+	/*margin-right:13px;*/
+	float: left;
+}
+.zanbi{
+	width:57px;
+	height:57px;
+	background-color:#b58850;
+	display: block;
+	position: absolute;
+	right: 0px;
+	border-radius: 50% 0px 50% 50%;
+	color:#FFF;
+	line-height: 57px;
+	text-align: center;
+}
+
+ .daolandituxuanxiang{
+	 width:158px;
+	 height:37px;
+	/*background-color:blanchedalmond;*/
+	 background: url( "img/期中测试/images/images/back_h - 副本787878.png");
+	 margin:37px auto 0px;
+	 line-height: 36px;
+	 text-align: center;
+	/* float: left;*/
+}
+/*瓦片区3*/
+.wapainqu3{
+	width:1250px;
+	height:1019px;
+	/*background-color: aqua;*/
+	margin: 60px  auto 0;
+	position: relative;
+	
+}
+.wapianqu3title{
+	width:1250px;
+	height:65px;
+	/*background-color: red;*/
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.zuo3 {
+	width:483px;
+	height:65px;
+	background: url( "img/期中测试/images/images/images/images/temporary-title.png") no-repeat;
+	background-position: center; 
+	 
+		/*background-color: blanchedalmond;*/
+	float:left; 
+}
+.zhong3{
+	width:130px;
+	height:65px;
+	float:left;
+	margin: 0 15px ;
+	
+}
+.yuo3 {
+	width:483px;
+	height:65px;
+	background: url( "img/期中测试/images/images/images/images/temporary-title - 副本.png") no-repeat ;
+	background-position: center; 
+		/*background-color: blanchedalmond;*/
+	float: left;
+	position: absolute;
+	right: 0px;
+}
+.w3kapian3{
+	width:624px;
+	height:452px;
+	background-color: antiquewhite;
+	/*float: left;*/
+	position: absolute;
+	left: 0px;
+	top:105px;
+	z-index: 2;
+}
+.w3kapian2{
+	width:619px;
+	height:221px;
+	background-color:#24364a;
+	/*float: left;*/
+	margin-left: 10px;
+	position: absolute;
+	right: 0px;
+	top:105px;
+}
+.w3kapian2 p{
+	width:534px;
+	height:98px;
+	margin: auto;
+	color:#fff;
+	font-size: 14px;
+	padding-top: 45px;
+	
+}
+.w3kapian1{
+	width:305px;
+	height:221px;
+	/*background-color:chocolate;*/
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	z-index: 0;
+	position: relative;
+}
+.w3kapian11{
+	width:305px;
+	height:221px;
+	background-color:brown;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+	z-index: 0;
+	position: relative;
+}
+.w3kapian15{
+	width:305px;
+	height:221px;
+	background-color:brown;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+	z-index: 0;
+	position: relative;
+}
+.w3kapian19{
+	width:305px;
+	height:221px;
+	background-color:brown;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+	z-index: 0;
+	position: relative;
+}
+.w3kapian113{
+	width:305px;
+	height:221px;
+	background-color:brown;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+	z-index: 0;
+	position: relative;
+}
+ /*span.w3kapian1:nth-child(1) {
+	margin-left: 0px;
+	background-color: darkblue;
+}*/
+.dianming{
+	
+	width:100%;
+	position: absolute;
+	bottom:0px;
+	margin: 0px;
+	
+	color: #fff;
+	padding: 20px 0 20px 10px  ;
+}
+
+/*瓦片区4*/
+.wapianqu4{
+	width:1258px;
+	height:590px;
+	margin:60px auto 0;
+	/*background-color: crimson;*/
+}
+.tuwen{
+   width:1258px;
+	height:459px;
+	background-color: aqua;
+}
+.wa4tupain{
+	width:629px;
+	height:459px;
+	background-color: aqua;
+	float: left;
+	background: url( "img/期中测试/images/images/images/images/.jpg" )
+}
+.wa4wenzi{
+	width:629px;
+	height:459px;
+	background-color:#24364a;
+	float: right;
+}
+.wa4wenzi ul{
+	
+	width:629px;
+	height:377px;
+	/*background-color: aqua;*/
+	margin: 0px;
+	padding: 0px;
+}
+.wa4wenzi li
+{
+	width:569px;
+	height: 54px;
+	/*background-color: cornsilk;*/
+	margin:0  ;
+	padding: 20px 30px;
+	list-style: none;
+	
+}
+.wa4wenzi h2{
+	font-size: 16px;
+    color: #fff;
+    padding-left: 20px;
+    background: url( "img/期中测试/images/images/images/images/temporary6-icon1.png") no-repeat left center;
+	/*background-color:burlywood;*/
+	font-weight: normal;
+}
+span.zhanchu{
+	background: #6b2420 ;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px;
+   
+}
+.wa4wenzi p{
+	margin-top: 10px;
+	font-size: 16px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+ ul.ulxiamian{
+	width: 629px;
+	height: 40px;
+	padding: 20px 0px;
+	margin: 0px;
+	/*background-color: red;*/
+}
+.ulxiamian li{
+	padding:0;
+	margin: 0  5px;
+	width:40px;
+	height:40px;
+	list-style: none;
+	float: left;
+	/*background-color: aqua;*/
+	text-align: center;
+	line-height: 40px;
+	color:#fff;
+
+}
+.allli {
+	width:400px;
+	height:40px;
+	/*background-color: antiquewhite;*/
+	margin: auto;
+}
+.ulxiamian li:first-child{
+	background-color: #304763;
+	border-radius: 50%;
+}
+.ulxiamian li:nth-child(8)
+{
+	background: url("img/期中测试/images/images/images/images/page_next1.png") no-repeat ;
+	background-position: center;
+}
+/*瓦片区5*/
+.wapianqu5{
+	width:1258px;
+	height:472px;
+	/*padding: 65px 0  80px 0;*/
+	margin: 30px auto 80px;
+	background: url("img/期中测试/images/images/images/images/s6243cd06d9085.jpg");
+}
+h1.title {
+	
+	width:153px;
+	height:46px;
+    font-size:26px; 
+	margin: 60px auto 0;
+	position: relative;
+	text-align:center;
+	line-height: 50px;
+	/*background-color: aqua;
+	 /*text-align: center;*/
+}
+.titledabao{
+	/*background-color: blueviolet;*/
+	width: 153px;
+	margin: 0 auto;
+}
+ span.title {
+	width:153px;
+	height:46px;
+    font-size:28px; 
+	margin: 0px auto;
+	position: relative;
+	text-align:center;
+	line-height: 50px;
+	 
+	/*background-color: aqua;*/
+}
+
+.zuofufa{
+	width:33px;
+	height:46px;
+    background:url(  "img/期中测试/public-icon3.png") no-repeat;
+	background-position: center;
+	float:left;
+	margin-right: 0px;
+	/*background-color: red;*/
+}
+.youfufa{
+	width:33px;
+	height:46px;
+   background:url( "img/期中测试/public-icon4.png") no-repeat;
+	background-position: center;
+	float:left;
+	position:absolute;
+	top:0px;
+	
+	
+}
+
+/*备案*/
+
+.beian{
+	width: 100%;
+	height: 311px;
+	background-color: #272727;
+	position: relative;
+	
+}
+.liugedi{
+	width:520px;
+	height:45px;
+	position: relative;
+	left:590px;
+	top:28px;
+	color:#fff;
+}
+.lige1{
+	width:45px;
+	height:45px;
+	background:url( "img/期中测试/images/images/images/屏幕截图_23-4-2024_15448_www.dpm.org_22.png")no-repeat;
+	float:left;
+	text-align: center;
+}
+.lige2{
+	width:45px;
+	height:45px;
+	background:url(  "img/期中测试/images/images/images/屏幕截图_23-4-2024_15448_www.dpm.org_24.png")no-repeat;
+	float:left;
+	margin-left: 50px;
+}
+.lige3{
+	width:45px;
+	height:45px;
+	background:url(  "img/期中测试/images/images/images/屏幕截图_23-4-2024_15448_www.dpm.org_26.png")no-repeat;
+	float: left;
+	margin-left: 50px;
+}
+.lige4{
+	width:45px;
+	height:45px;
+	background:url( "img/期中测试/images/images/images/屏幕截图_23-4-2024_15448_www.dpm.org_28.png") no-repeat;
+	float:left;
+	margin-left: 50px;
+}
+.lige5{
+	width:45px;
+	height:45px;
+	background:url( "img/期中测试/images/images/images/屏幕截图_23-4-2024_15448_www.dpm.org_30.png")no-repeat; 
+	float:left;
+	margin-left: 50px;
+}
+.lige6{
+	width:45px;
+	height:45px;
+	background:url( "img/期中测试/images/images/images/屏幕截图_23-4-2024_15448_www.dpm.org_56.png") no-repeat;
+	float:left;
+	margin-left: 50px;
+	
+}
+.mingcheng{
+	width: 520px;
+	height: 14px;
+}
+.weibo{
+	width: 45px;
+	float: left;
+	text-align: center;
+	margin-top: 9px;
+}
+.weixin{
+	width: 45px;
+	float: left;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 9px;
+
+}
+.xiaochengxu{
+	width:48px;
+	float:left;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 9px;
+}
+.xuexi{
+	width:80px;
+	text-align: center;
+	float:left;
+	margin-left: 34px;
+	margin-top: 9px;
+}
+.gongzhonghao{
+	
+	width: 48px;
+	float:left;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 9px;
+}
+.douyinhao{
+	
+	
+	width: 48px;
+	float:left;
+	text-align: center;
+	margin-left: 42px;
+	margin-top: 9px;
+}
+p.fangwenliang{
+	width:80px;
+	position: absolute;
+	top:120px;
+	left:707px;
+	color:#fff;
+	
+}
+.shuzi {
+	width: 210px;
+	height: 26px;
+	color:#fff;
+	position: absolute;
+	top:130px;
+	left:795px;
+	
+}
+.shizi1{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	text-align: center;
+	
+}
+.shizi2{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+.shizi3{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+.shizi4{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+.shizi5{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+.shizi6{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+.shizi7{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+.shizi8{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+}
+.shizi9{
+	width: 19px;
+	height: 25px;
+	background-color:#404040;
+	float: left;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+}
+.xiaozi{
+	font-size: 12px;
+    width: 100%;
+	height: 120px;
+	text-align: center;
+	line-height: 8px;
+	position: absolute;
+	top:170px;
+	color:#fff;
+}
+p.jiuge{
+	font-weight:bold;
+}
+p.liulanjianyi{
+	width: 73px;
+	height: 28px;
+	border: solid #fff;
+	color:#fff;
+	position: absolute;
+	 top:255px;
+	left:814px;
+	text-align: center;
+	font-size:14px
+	
+	
+}
+.dunpai{
+	width:52px;
+	height:60px;
+	position: absolute;
+	top:155px;
+	right:498px;
+	background: url( "img/期中测试/blue_error.png");
+	margin: 0px;
+	padding: 0px;
+}
+.jinghui{
+	width:20px;
+	height: 20px;
+	background:url( "img/期中测试/ico.png");
+	position: absolute;
+	left:674px;
+	top:218px;
+}
+
