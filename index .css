@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px auto;
+	padding:0px;
+}
+.dahezi{
+	width: 1700px;
+	height: 3195px;
+	margin:  0px auto;
+}
+/*nav*/
+.nav{
+	width: 1700px;
+	height: 45px;
+	z-index: 2;
+	margin: 0px;
+}
+.nav ol{
+	list-style:none;
+	margin-left:511px;
+	padding: 0px;
+}
+.nav  li{
+	float:left;
+	margin-left: 53px;
+	color:#7d7d7f;
+}
+.gongneng{
+	width: 294px;
+	height: 32px;
+	background:  url("file:///F|/陈怀林/学习站点/img/期中测试/images/屏幕截图_23-4-2024_15448_www.dpm.org_03.2.png")  ;
+	margin: 7px 36px auto auto;
+}
+.logo{
+	width: 108px;
+	height: 32px;
+	background: url("file:///F|/陈怀林/学习站点/img/期中测试/s611e293c9d212.png");
+	position: absolute;
+	left:36px;
+	top:7px;
+	margin: 7px auto auto 36px;
+}
+/*banner*/
+.banner{
+	width:1250px;
+	height: 472px;
+	/*text-align: center;*/
+	background:url("file:///F|/陈怀林/学习站点/img/期中测试/images/s656540bac243f.jpg") no-repeat;
+	/*position:relative;*/
+	margin: 70px auto 0;
+	
+}
+ul.huihuang{
+	
+	width:94px;
+	height: 24px;
+	
+	/*position:absolute;
+	bottom:40px;
+	left:760px;*/
+	padding:20px 0 0px;
+	margin: 0 auto;
+}
+.huihuang li{
+	width: 27px; 
+	height: 24px;
+	background:url("file:///F|/陈怀林/学习站点/img/期中测试/dian2.png");
+	float: left;
+	margin:0 10px;
+	list-style: none;
+}
+li.huangse {
+	width: 27px; 
+	height: 24px;
+	background:url("file:///F|/陈怀林/学习站点/img/期中测试/dian3.png");
+	float: left;
+	margin-left: 10px;
+	
+}
+/*瓦片区1*/
+.wapianqu1{
+	width:1258px;
+	height:1005px;
+	background-color: aqua;
+	margin: 50px auto 0;
+}
+.sigexuanxiang{
+	width:1258px;
+	height: 25px;
+	background-color: bisque;
+	margin-top: 40px;
+}
+span.xuanxiang1{
+
+	height: 25px;
+	/*background-color: blue;*/
+	padding-left: 35px;
+	margin: 0 17px;
+	font-size: 20px;
+}
+ span.xuanxiang1{
+	width:27px;
+	height: 25px;
+	background-color: red;
+	background:url("file:///F|/陈怀林/学习站点/img/期中测试/images/list_dragon4.png") left -7px no-repeat  ;
+}
+ .xuanxiangtuyi span{
+	width:27px;
+	height: 25px;
+	background-color: red;
+	background:url("file:///F|/陈怀林/学习站点/img/期中测试/images/list_dragon4.png") bottom 0 no-repeat  ;
+}
